@@ -18,7 +18,7 @@ import (
 	"github.com/spf13/viper"
 )
 
-const serverTimeout = 120 * time.Second
+const serverTimeout = 300 * time.Second
 
 //go:embed web/template
 var templateFS embed.FS
